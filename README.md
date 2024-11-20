@@ -20,7 +20,7 @@ La fonction gère les conversions suivantes :
 
 ## Compilation
 
-Pour compiler la bibliothèque, utilisez le Makefile fourni. Exécutez simplement la commande suivante dans le terminal :
+Pour compiler la bibliothèque, utilisez le Makefile fourni. Exécutez simplement cette commande dans le terminal :
 ```
 make
 ```
