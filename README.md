@@ -2,30 +2,30 @@
 
 ## Description
 
-ft_printf est une implémentation personnalisée de la fonction printf en C. Ce projet permet de gérer différents formats de conversion pour l'affichage de données.
+ft_printf is a custom implementation of the printf function in C. This project handles various conversion formats for data display.
 
-## Contenu
+## Content
 
-La fonction gère les conversions suivantes :
+The function handles the following conversions:
 
-- `%c` - Affiche un caractère
-- `%s` - Affiche une chaîne de caractères
-- `%p` - Affiche un pointeur en hexadécimal
-- `%d` - Affiche un nombre décimal (base 10)
-- `%i` - Affiche un entier en base 10
-- `%u` - Affiche un nombre décimal non signé
-- `%x` - Affiche un nombre en hexadécimal (minuscules)
-- `%X` - Affiche un nombre en hexadécimal (majuscules)
-- `%%` - Affiche le symbole %
+- `%c` - Displays a character
+- `%s` - Displays a string
+- `%p` - Displays a pointer in hexadecimal
+- `%d` - Displays a decimal number (base 10)
+- `%i` - Displays an integer in base 10
+- `%u` - Displays an unsigned decimal number
+- `%x` - Displays a number in hexadecimal (lowercase)
+- `%X` - Displays a number in hexadecimal (uppercase)
+- `%%` - Displays the % symbol
 
 ## Compilation
 
-Pour compiler la bibliothèque, utilisez le Makefile fourni. Exécutez simplement cette commande dans le terminal :
+To compile the library, use the provided Makefile. Simply run this command in the terminal:
 ```
 make
 ```
 
-## Utilisation
+## Usage
 
 ```c
 #include "ft_printf.h"
